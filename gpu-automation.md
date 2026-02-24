@@ -235,34 +235,7 @@ class GPULogAggregator:
 
 ---
 
-# Part II: Python Coding Questions
 
-### Question Index
-
-| # | Question | Difficulty | Pattern |
-|---|----------|------------|---------|
-| Q1 | Parse GPU Health Logs & Detect Failures | Medium | Log Parsing / Dict |
-| Q2 | GPU Cluster Node Availability Tracker | Medium | Interval Merge |
-| Q3 | Rate Limiter for Triage API | Medium | Sliding Window |
-| Q4 | Detect Cascading GPU Failures | Hard | Graph BFS/DFS |
-| Q5 | LRU Cache for GPU State Lookups | Medium | HashMap + DLL |
-| Q6 | Max Non-Adjacent GPU Repair Jobs | Medium | Dynamic Programming |
-| Q7 | Connection Pool Manager | Medium | OOP / Threading |
-| Q8 | Top K Failing GPUs from Stream | Medium | Heap / Counter |
-
-### Most Likely Patterns for This Role
-
-| Pattern | Likelihood | Why |
-|---------|-----------|-----|
-| Dictionary/HashMap | Very High | Log parsing, metrics aggregation, state tracking |
-| Interval Problems | High | Maintenance windows, availability calculations |
-| Graph BFS/DFS | High | Failure cascading, network topology traversal |
-| Sliding Window | High | Rate limiting, anomaly detection, moving averages |
-| Heap / Priority Queue | Medium | Top-K problems, priority-based scheduling |
-| Dynamic Programming | Medium | Resource optimization, scheduling (confirmed asked) |
-| OOP / Design Patterns | High | Connection pooling, state machines, cache design |
-
----
 
 ## Q1: Parse GPU Health Logs & Detect Failures
 

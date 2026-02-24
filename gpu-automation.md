@@ -1,6 +1,5 @@
-# OCI Interview Prep — Coding & System Design Questions
+#  GPU Automation
 
-> **IC4 Principal Software Developer — GPU Availability & Monitoring**
 
 ---
 
